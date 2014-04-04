@@ -1,10 +1,12 @@
 Eugeneius::Application.routes.draw do
 
   resources :posts do
+  end
 
-  root to: 'posts#index'
+  
+  root 'posts#index'
 
-  end  
+    
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
