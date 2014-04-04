@@ -1,4 +1,4 @@
-# TopSpots
+#TopSpots
 
 This is the a rails application for finding the best places in your city.
 
