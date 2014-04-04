@@ -1,10 +1,11 @@
 Eugeneius::Application.routes.draw do
 
+  get "pages/home"
   resources :posts do
   end
 
   
-  root 'posts#index'
+  root 'pages#home'
 
     
 
