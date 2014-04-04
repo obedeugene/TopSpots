@@ -4,6 +4,15 @@
 
 $grayMediumLight: #eaeaea;
 
+.hero-unit {
+ background-color: #99CCCC;
+}
+
+.map {
+ background: url(../map2.jpg) no-repeat center top;
+ width: 100%;
+}
+
 @mixin box_sizing {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
