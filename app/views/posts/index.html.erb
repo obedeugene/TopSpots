@@ -1,7 +1,8 @@
 <h3 class="center">New York City</h3>
-
+<div class="container">	
 <% @posts.each do |post| %>
 	<h3><%= link_to post.title, post %></h3> 
 	<p><%= post.content %></p>
 	<hr />
 <% end %>	
+</div>

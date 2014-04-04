@@ -1,3 +1,9 @@
 <h1><%= @post.title %></h1>
-<p><%= @post.content %> </p>
-<small><%= @post.created_at %></small>
+<div class="container" "img-responsive"> 
+<h3><%= @post.content %> </h3>
+
+<%= image_tag("spot1.jpg", alt: "Spot") %> 
+<%= image_tag("spot3.jpg", alt: "Spot") %> 
+<%= image_tag("spot5.jpg", alt: "Spot") %> 
+
+</div>
