@@ -1,8 +1,7 @@
-<h1>TopSpots</h1>
 <h3 class="center">New York City</h3>
 
 <% @posts.each do |post| %>
-	<h2><%= link_to post.title, post %></h2> 
-	<p class="center"><%= post.content %></p>
+	<h3><%= link_to post.title, post %></h3> 
+	<p><%= post.content %></p>
 	<hr />
 <% end %>	
