@@ -1,9 +1,12 @@
+<div class="container hero-unit">
 <h1><%= @post.title %></h1>
-<div class="container" "img-responsive"> 
+<p class="center"><%= @post.location  %></p>
 <h3><%= @post.content %> </h3>
+</div>
 
+<div class="container">
 <%= image_tag("spot1.jpg", alt: "Spot") %> 
 <%= image_tag("spot3.jpg", alt: "Spot") %> 
 <%= image_tag("spot5.jpg", alt: "Spot") %> 
-
 </div>
+

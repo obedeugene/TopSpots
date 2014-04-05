@@ -5,9 +5,8 @@
 	  <%= image_tag("photo.jpg", alt: "Spot") %>
 	  <%= link_to post.title, post %>
     </h3> 
-	<p>
-	  <%= post.content %>
-	</p>
+	<p><%= post.content  %></p>
+	<p><%= post.location %></p>
 	<hr />
 <% end %>	
 </div>
