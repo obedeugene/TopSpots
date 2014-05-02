@@ -13,6 +13,7 @@ describe "Pages" do
   	it "Should have Post Title" do
   	   visit 'posts_path' 
   	   page.should have_content(post: title)
+       page.should have_content(post: content)
     end
   end
 end
