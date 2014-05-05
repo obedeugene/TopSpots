@@ -3,25 +3,25 @@
 CSVKeep is an Importer/Exporter which allows you to import CSV files and save to your database. It also allows you to export your data in a JSON format. 
 
 
-#Design
+###Design
 I designed this script to be easily expandable to support other formats if needed. 
 
 ###Installation
 In #Rails #3, you need to specify the Attr Accessible parameters in your model. 
 
 
-####Usage
+###Usage
 You can use a #Method to run the tasks, or you can use a #Rake task
 
 ###Method 
 Place the Import and Export methods in your app, then call the method you need
 
-##Import CSV
+####Import CSV
 
 Stock.import('your_file_path.csv')
 
 
-##Export to JSON
+####Export to JSON
 
 Stock.export
 
@@ -29,18 +29,18 @@ Stock.export
 ###Rake Task
 Alternatively, you can run a rake task.
 
-##Import CSV
+####Import CSV
 
 Rake data:import
 
 
-##Export to JSON
+####Export to JSON
 
 Rake data:export
 
 
 
-###Minor issues and Roadmap
+####Minor issues and Roadmap
 I am still working on fixing some of these bugs:
 
 1) Some conflicts with "id" and "primary id"
