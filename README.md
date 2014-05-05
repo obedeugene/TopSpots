@@ -1,12 +1,12 @@
-####CSVKeep 
+##CSVKeep 
 
 CSVKeep is an Importer/Exporter which allows you to import CSV files and save to your database. It also allows you to export your data in a JSON format. 
 
 
-####Design
+#Design
 I designed this script to be easily expandable to support other formats if needed. 
 
-####Installation
+###Installation
 In #Rails #3, you need to specify the Attr Accessible parameters in your model. 
 
 
